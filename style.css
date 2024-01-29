@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('img/bckg.jpg');
+  padding: 2rem;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  color: blueviolet;
+}
+h2{
+   font-family: "Helvetica", sans-serif;
+  color: darkred;
+}
+
+a {
+  display: ;
+  margin-top: 1rem;
+  color: #fff;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li::before {
+  content: '•';
+  color: #446688;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
